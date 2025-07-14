@@ -34,7 +34,7 @@ by Rongfei Juan and Junhe Lian (2025)
 
 If you use this dataset, please cite our paper:
 
-> Juan, R., & Lian, J. (2025). Failure Mechanisms in Quenching and Partitioning (Q&P) Steel under Varying Stress States. *Journal Name*, [DOI link here].
+> Juan, R., & Lian, J. (2025). Failure Mechanisms in Quenching and Partitioning (Q&P) Steel under Varying Stress States. JMST, [DOI link here].
 
 ## 📄 License
 
