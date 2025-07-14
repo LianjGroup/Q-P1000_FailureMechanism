@@ -6,22 +6,40 @@ This repository provides the open access dataset and analysis scripts supporting
 by Rongfei Juan and Junhe Lian (2025)
 
 ## 📁 Repository Contents
+### 🔬 Experimental Data
 
 - `/data/`
-  - Raw and processed mechanical test data (e.g. force–displacement, stress–strain curves)
-  - Stress triaxiality and Lode angle values for each geometry
-- `/images/`
-  - High-resolution SEM and EBSD images (Fig. 4–10 from the manuscript)
-- `/ebsd/`
-  - EBSD raw data files (`.ang`/`.ctf`) and phase segmentation codes (MTEX scripts)
+  - Raw and processed mechanical test data for all geometries (e.g. SDB, CH, SH)
+
+### 🖼️ SEM Images
+
+- `/images/initial_SEM/`
+  - Scanning Electron Microscopy (SEM) images of undeformed Q&P 1000 steel
+- `/images/fracture_SEM/`
+  - Fractography SEM images of all fractured specimens at various magnifications
+- `/images/cross_section_SEM/`
+  - SEM images of metallographic cross-sections used for damage mechanism analysis
+
+### 🧭 EBSD Data
+
+- `/ebsd/initial_EBSD/`
+  - Raw `.ang` or `.ctf` files, phase maps, grain maps, GOS/PQ maps of the initial microstructure
+- `/ebsd/fractured_EBSD/`
+  - EBSD characterization near crack initiation sites for each geometry (e.g., CH, SH, NDB-R6)
+  - Includes orientation, strain localization, and phase transformation maps
+
+### 🧩 Scripts
+
 - `/scripts/`
-  - MATLAB and Python scripts for:
-    - EBSD post-processing
-    - Phase segmentation strategy
-    - Defect statistics plotting
-    - Cleavage criterion visualization
+  - MATLAB scripts for EBSD phase segmentation and MTEX workflow
+  - Python scripts for plotting damage statistics and cleavage criteria
+  - Calculation scripts for fracture strain and critical triaxiality
+
+### 📑 Documentation
+
 - `/docs/`
-  - Supporting documentation, figures, and metadata
+  - Metadata summary of all datasets (materials, SEM/EBSD settings, etc.)
+  - Figure-to-data cross-reference list
 
 ## 📌 Highlights
 
